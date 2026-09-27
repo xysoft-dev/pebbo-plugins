@@ -1,0 +1,30 @@
+{
+  "name": "pebbo-openai",
+  "version": "1.0.0",
+  "description": "Find and inspect public Pebbo marketplace listings and see who posted them, list a seller's other listings or a user's listings by @username, read your own listings and your liked listings, and with separate permission like listings or post, edit, mark sold and delete your own and hand you a link to add photos. Requires a Pebbo account.",
+  "author": {
+    "name": "Pebbo"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Pebbo",
+    "shortDescription": "Find Pebbo listings and manage your own.",
+    "longDescription": "Search public Pebbo listings, inspect details and see who posted them, get a link to open an item, list a seller's other listings or a user's listings by @username, and read your own listings and your liked listings. The agent sees other people by display name and @username, never by their email. Sign in to your Pebbo account on first use. Liking and publishing each need their own approval; with publishing, the agent can post, edit, mark sold and delete your own listings and give you a link to add photos yourself. Messaging and purchases are not supported.",
+    "developerName": "Pebbo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://pebbo.app",
+    "privacyPolicyURL": "https://pebbo.app/privacy",
+    "termsOfServiceURL": "https://pebbo.app/terms",
+    "defaultPrompt": [
+      "Find a bicycle on Pebbo.",
+      "Show me details for this Pebbo listing."
+    ]
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/xysoft-dev/pebbo-plugins"
+}

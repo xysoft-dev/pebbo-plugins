@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pebbo": {
+      "type": "http",
+      "url": "https://paeagnzrcnxkkmotwdue.supabase.co/functions/v1/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "pebbo",
+  "interface": {
+    "displayName": "Pebbo"
+  },
+  "plugins": [
+    {
+      "name": "pebbo-openai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pebbo-openai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
