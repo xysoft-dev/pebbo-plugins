@@ -1,7 +1,7 @@
 {
   "name": "pebbo-openai",
-  "version": "1.0.0",
-  "description": "Find and inspect public Pebbo marketplace listings and see who posted them, list a seller's other listings or a user's listings by @username, read your own listings and your liked listings, and with separate permission like listings or post, edit, mark sold and delete your own and hand you a link to add photos. Requires a Pebbo account.",
+  "version": "1.1.0",
+  "description": "Find and inspect public Pebbo marketplace listings and see who posted them, browse the newest listings, those in your community and those near the location you saved in Pebbo, list a seller's other listings or a user's listings by @username, read your own listings and your liked listings, and with separate permission like listings or post, edit, mark sold and delete your own and hand you a link to add photos. Requires a Pebbo account.",
   "author": {
     "name": "Pebbo"
   },
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Pebbo",
     "shortDescription": "Find Pebbo listings and manage your own.",
-    "longDescription": "Search public Pebbo listings, inspect details and see who posted them, get a link to open an item, list a seller's other listings or a user's listings by @username, and read your own listings and your liked listings. The agent sees other people by display name and @username, never by their email. Sign in to your Pebbo account on first use. Liking and publishing each need their own approval; with publishing, the agent can post, edit, mark sold and delete your own listings and give you a link to add photos yourself. Messaging and purchases are not supported.",
+    "longDescription": "Search public Pebbo listings, inspect details and see who posted them, get a link to open an item, browse the newest listings, the listings in the community you chose and those near the location you saved in the Pebbo app, list a seller's other listings or a user's listings by @username, and read your own listings and your liked listings. Nearby uses only the location saved in Pebbo, with the same center and 25 km radius as the app's Nearby tab, and only when the app is set to use that saved location; never your device's location. The agent is not sent that location, but from the order of nearby listings it can work out closely where it is, and community listings show your community. The agent sees other people by display name and @username, never by their email. Sign in to your Pebbo account on first use. Liking and publishing each need their own approval; with publishing, the agent can post, edit, mark sold and delete your own listings and give you a link to add photos yourself. Messaging and purchases are not supported.",
     "developerName": "Pebbo",
     "category": "Productivity",
     "capabilities": [
@@ -22,7 +22,8 @@
     "termsOfServiceURL": "https://pebbo.app/terms",
     "defaultPrompt": [
       "Find a bicycle on Pebbo.",
-      "Show me details for this Pebbo listing."
+      "Show me details for this Pebbo listing.",
+      "Show me listings near my saved location on Pebbo."
     ]
   },
   "license": "Apache-2.0",

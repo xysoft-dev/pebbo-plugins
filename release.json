@@ -1,22 +1,22 @@
 {
-  "version": "1.0.0",
-  "source_revision": "d6c552eb728fe59554f51a7f8b99a9771f6a3908",
+  "version": "1.1.0",
+  "source_revision": "012ad3a6b960e6a34c74f2cbfa097d7ebbab5d10",
   "dirty": false,
   "mode": "public-release",
   "endpoint": "https://paeagnzrcnxkkmotwdue.supabase.co/functions/v1/mcp",
   "sha256": {
     ".agents/plugins/marketplace.json": "f416dd4bbe93af9aeb8b6c7bbea2c72ec96973fa24459c2f723d789f60f46096",
-    ".claude-plugin/marketplace.json": "681a5c9d6f36b5a0abfc6d146e834c19fbaa819c20bd99e00d37960fe0979fbd",
+    ".claude-plugin/marketplace.json": "47ccf127148c108813444eb46b31c53d65ddc6faaa5af10851366ed9a9dfe3df",
     ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
-    "README.md": "3b3d1b9c053ccb42bb5e92c1cdaef7ea47df26c43591afe82e5a096b30e96721",
-    "plugins/pebbo-claude/.claude-plugin/plugin.json": "37f4f0087a864423defdef9a8bea343417f1310f8e04dab7b00599c070d1b4f8",
+    "README.md": "693a029c3b7a2de6e1379aa58472e86f7b3a316fbb999330d9b3003940e07aaf",
+    "plugins/pebbo-claude/.claude-plugin/plugin.json": "f4eb138d672a71f4825430e264b9f99c955ecb87c7b771e0e00a971945a5a8df",
     "plugins/pebbo-claude/.mcp.json": "bf444b709aa6c1b8ef31d0cfccaeb71327c2bcf1433fdb5f727d7a7ce156c228",
-    "plugins/pebbo-claude/skills/find-listings/SKILL.md": "622a4e13b6bf5b3f8f0a1b4bf38e6c012cd14f60c2514f8aed8d5beaf0ff7bc1",
-    "plugins/pebbo-openai/.codex-plugin/plugin.json": "3de997802d52357713636bef052bc5a40ebd92d32d77916f665fe63ff725705a",
+    "plugins/pebbo-claude/skills/find-listings/SKILL.md": "120870c365b22b12faf11f8b09695486da9d310ae99f63e48e24a7d43b90f0b6",
+    "plugins/pebbo-openai/.codex-plugin/plugin.json": "182a13575b53329e0e345b4aa2334f00220f8aff0482e5fd5ac5a0e4eea02a00",
     "plugins/pebbo-openai/.mcp.json": "bf444b709aa6c1b8ef31d0cfccaeb71327c2bcf1433fdb5f727d7a7ce156c228",
     "plugins/pebbo-openai/mcp.json": "269eaa610fb09fe0a288e891283ee2ecd5686060d6b68e40c74dfaf83a7173b6",
-    "plugins/pebbo-openai/plugin.json": "40d5d3c740fbf4c0063d2fbd86954041076eb55d21a32b18d375fef7c0d4ff25",
-    "plugins/pebbo-openai/skills/find-listings/SKILL.md": "622a4e13b6bf5b3f8f0a1b4bf38e6c012cd14f60c2514f8aed8d5beaf0ff7bc1"
+    "plugins/pebbo-openai/plugin.json": "daa1906fafbfa243250cdec62c3df1ad175210b5c8347a54525a3b312b5a1934",
+    "plugins/pebbo-openai/skills/find-listings/SKILL.md": "120870c365b22b12faf11f8b09695486da9d310ae99f63e48e24a7d43b90f0b6"
   }
 }

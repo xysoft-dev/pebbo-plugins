@@ -1,7 +1,7 @@
 {
   "name": "pebbo-claude",
-  "version": "1.0.0",
-  "description": "Find and inspect public Pebbo marketplace listings and see who posted them, list a seller's other listings or a user's listings by @username, read your own listings and your liked listings, and with separate permission like listings or post, edit, mark sold and delete your own and hand you a link to add photos. Requires a Pebbo account.",
+  "version": "1.1.0",
+  "description": "Find and inspect public Pebbo marketplace listings and see who posted them, browse the newest listings, those in your community and those near the location you saved in Pebbo, list a seller's other listings or a user's listings by @username, read your own listings and your liked listings, and with separate permission like listings or post, edit, mark sold and delete your own and hand you a link to add photos. Requires a Pebbo account.",
   "author": {
     "name": "Pebbo"
   },
